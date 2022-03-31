@@ -1,0 +1,35 @@
+.feed {
+  flex: 5;
+  background-color: transparent;
+  height: 520px;
+}
+
+.feedparent{
+    display: flex;
+    flex: 8;
+}
+
+.feedWrapper {
+  background-color: transparent;
+  padding: 10px;
+}
+
+.feedList {
+  width: calc(100%-5px);
+  height: 395px;
+  list-style: none;
+  overflow-y: scroll;
+  padding-left: 15px;
+  padding-bottom: 15px;
+  padding-right: 5px;
+  background-color: transparent;
+  margin-top: -10px;
+}
+
+.feedrightbar {
+  flex: 3;
+  padding: 20px;
+  height: 520px;
+  box-shadow: 0px 0px 10px -5px #000000;
+  background-color: transparent;
+}

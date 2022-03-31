@@ -1,0 +1,10 @@
+.homeContainer {
+  background-color: transparent;
+  display: flex;
+}
+
+body{
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}

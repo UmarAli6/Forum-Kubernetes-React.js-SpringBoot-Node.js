@@ -1,0 +1,24 @@
+
+name: nodeserver CI docker
+
+on:
+  push:
+    paths:
+      - "Backend/NodeServer/**"
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build and Push Docker image
+      uses: mr-smithers-excellent/docker-build-push@v5
+      with:
+        image: bruhski/mususocial
+        tags: nodeserver
+        registry: docker.io
+        dockerfile: Backend/NodeServer/Dockerfile
+        directory: Backend/NodeServer/
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}

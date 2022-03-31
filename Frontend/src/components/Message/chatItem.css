@@ -1,0 +1,36 @@
+.chatItem{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    align-items: flex-start;
+}
+
+.chatItem.own{
+    align-items: flex-end;
+}
+.chatTop.own{
+    max-width: 350px;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.chatTop{
+    max-width: 350px;
+    background-color:lightgray;
+    border-radius: 10px;
+    padding: 10px;
+}
+.chatName{
+    font-size:small;
+    margin: 0px 5px;
+}
+
+.chatText{
+    display: inline-block;
+}
+
+.chatBottom {
+    font-size:x-small;
+    margin: 5px 5px;
+}

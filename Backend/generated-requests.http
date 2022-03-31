@@ -1,0 +1,41 @@
+###
+GET http://localhost:8082/api/v1/users/get/1
+
+###
+POST http://localhost:8082/api/v1/users/registration
+content-type: application/json
+
+{
+  "name": "Emerson",
+  "password": "12345"
+}
+
+###
+GET http://localhost:8081/api/v1/posts/get/1
+
+###
+POST http://localhost:8081/api/v1/posts/create
+content-type: application/json
+
+{
+  "content": "Umar's second post",
+  "userId": "1"
+}
+
+
+###
+GET http://localhost:8083/api/v1/messages/get/sender/1/receiver/2
+
+###
+POST http://localhost:8083/api/v1/messages/create
+content-type: application/json
+
+{
+  "content": "yooyoyoyoy",
+  "senderId": "1",
+  "receiverId": "2",
+  "senderName": "umar"
+}
+
+###
+GET http://localhost:8083/api/v1/messages/get/sender/2/receiver/1

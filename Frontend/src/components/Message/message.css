@@ -1,0 +1,50 @@
+.message {
+  display: flex;
+  flex: 8;
+  background-color: transparent;
+  height: 520px;
+}
+
+.messageWrapper {
+  flex: 5;
+  padding: 5px;
+  background-color: transparent;
+  
+}
+
+.messageBoxTop {
+  background-color: transparent;
+  height: 450px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  padding: 0 10px;
+  padding-bottom: 5px;
+}
+
+.messagerightbar {
+  flex: 3;
+  background-color: transparent;
+}
+
+.messagerightbarWrapper {
+  padding: 0 20px;
+}
+
+.rightbarHr {
+  margin-top: -15px;
+}
+
+.rightbarUserItem {
+  display: flex;
+  align-items: center;
+  margin: 6px 0px;
+  cursor: pointer;
+}
+
+.rightbarUserImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}

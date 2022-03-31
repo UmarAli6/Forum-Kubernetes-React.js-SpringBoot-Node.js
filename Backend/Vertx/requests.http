@@ -1,0 +1,19 @@
+###
+GET http://localhost:8084/charts?id=2
+
+###
+GET http://localhost:8084/charts/1
+
+###
+GET http://localhost:8084/charts/all
+
+###
+POST http://localhost:8084/charts
+content-type: application/json
+
+[
+  {
+    "chartType":2,
+    "userId": 153
+  }
+]
