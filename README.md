@@ -1,4 +1,4 @@
-# Kubernetes-React.js-SpringBoot-Node.js-Forum
+# Forum-Kubernetes-React.js-SpringBoot-Node.js
 Simple webforum. Users are able to send private messages and post messages to a user wall. User are also able to see other users wall.
 
 A chart of your post history can be added to your wall. The settings for the chart can be changed.
